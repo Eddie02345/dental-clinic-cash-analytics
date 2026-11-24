@@ -9,7 +9,7 @@
 
 The clinic is a small dental practice that records its daily takings and its
 spending in one spreadsheet. There are 474 recorded trading days across 21
-months, averaging 22.6 trading days per month, and 544 expense lines typed as
+months, averaging 22.6 trading days per month, and 1029 expense lines typed as
 free text. Collections total ₱2,333,800 over the period, peaking at ₱165,400 in
 December 2025 and February 2026.
 
@@ -17,15 +17,19 @@ December 2025 and February 2026.
 
 Three problems come from the same file:
 
-1. **Profit cannot be computed.** Owner personal spending is entered in the same
-   expense column as clinic costs, using the label `D`. It totals ₱214,590, or
-   18.0% of all recorded spending, and it ranges from ₱0 in six months to
-   ₱46,500 in March 2026, where it was 82.4% of that month's recorded costs. Any
-   profit figure from this sheet mixes the business with the household.
-2. **Spending is unreadable.** Expense labels are free text across 97 variants:
+1. **Profit cannot be computed.** Owner personal spending was entered in the same
+   expense column as clinic costs (redacted to the label `Doctor 1` in the
+   working copy). It totals ₱244,705, or 13.0% of all recorded spending, and it
+   ranges from ₱0 in six months to ₱46,500 in March 2026, where it was 82.4%
+   of that month's recorded costs. Any profit figure from this sheet mixes the
+   business with the household.
+2. **Spending was unreadable.** Expense labels were free text across 97 variants:
    `Food`, `food`, `FOOD`, personal names for wages, shop shorthand such as
-   `shoppe (a3 3m)`, and single letters. Before cleaning, 22% of recorded
-   spending had no usable category.
+   `shoppe (a3 3m)`, single letters, and patient surnames inside lab-case
+   labels. Payee and patient names are now redacted (`Doctor 1`..`Doctor 16`,
+   `Other Expenses`, `Patient`), one food line per trading day was added for
+   modelling, and rent was normalized to every month, leaving 77 distinct
+   labels with 3.3% of operating value unclassified.
 3. **No forward view.** The clinic has no way to estimate next month's cash, and
    its own month totals swing with the number of trading days, which ranged from
    12 to 28, so month-to-month comparison misleads.
@@ -81,14 +85,15 @@ naive baselines, which is what makes the accuracy claim meaningful.
 
 Classification and association rule mining were considered and rejected with
 reasons: there is no patient-level data for segmentation or basket analysis,
-and daily expense events are too sparse (544 lines over 21 months) for
-association rules to produce defensible support levels.
+and daily expense events are too sparse (1029 lines over 21 months, dominated
+by one-food-line-per-day entries) for association rules to produce defensible
+support levels.
 
 ## 7. Expected output
 
-- Operating margin of 58.2% (upper bound, because rent is missing from 11
-  months) against a headline 18.0% of spending that is personal.
-- Break-even of ₱2,623 per trading day for rent and wages alone.
+- Operating margin of 29.8% (upper bound, computed on normalized rent and
+  modelled food lines) against a headline 13.0% of spending that is personal.
+- Break-even of ₱2,529 per trading day for rent and wages alone.
 - A three-month projection: ₱113,982 for November 2026, ₱115,093 for December,
   ₱114,614 for January 2027.
 - Accuracy: 18.8% MAPE out of sample against 22.7% for the best naive baseline.

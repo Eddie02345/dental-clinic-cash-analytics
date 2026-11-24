@@ -21,8 +21,9 @@ Open `Accounting.xlsx` and scroll to any monthly block. Point at:
 
 - three unrelated structures side by side (collections in A/B, expenses in F/G/H,
   GCash balances in N to U),
-- the free-text expense column with `Food`, `food`, `D`, and staff names,
-- the `D` lines. State the number: ₱214,590, 18.0% of all recorded spending,
+- the free-text expense column with `Food`, `Doctor 1`, and redacted `Doctor N`
+  payee lines (raw personal names are gone from the working copy),
+- the `Doctor 1` lines. State the number: ₱244,705, 13.0% of all recorded spending,
   and 82% of March 2026's recorded costs.
 
 Say the sentence the whole project rests on: because personal spending sits in
@@ -45,8 +46,8 @@ rows and the invalid date.
 .venv/bin/python -m src.taxonomy
 ```
 
-Show: 2.3% of operating spend left unclassified, personal spending split out,
-cost mix with wages and rent at 38.7% and 35.2%. Open `labels.csv` and explain
+Show: 3.3% of operating spend left unclassified, personal spending split out,
+cost mix with rent and wages at 53.6% and 19.3%. Open `labels.csv` and explain
 that a correction by the clinic is stored once and wins on every later run.
 
 ## 4. The algorithm (2 minutes)
@@ -73,7 +74,7 @@ Browser, in this order:
 1. **Dashboard**: margin, break-even per trading day, cost mix, weekday pattern.
 2. **Forecast**: change the trading-days input from 23 to 20 and let the
    projection move. That demonstrates the model rather than a static image.
-3. **Ledger**: type `kimi` into the expense form, show the category suggestion
+3. **Ledger**: type `Doctor 2` into the expense form, show the category suggestion
    flip to Wages, save, and show it in the table.
 4. **Reports**: build and download the PDF. Open it.
 
@@ -82,12 +83,12 @@ Browser, in this order:
 State unprompted:
 
 - 21 months is short, and only one December is observed.
-- Rent is logged in 10 of 21 months, so margin is an upper bound.
+- Rent is normalized to all 21 months, so margin is an upper bound.
 - Amounts are day totals, so no patient-level analysis is possible.
 - The forecast is a planning aid; two months in five land within 10%.
 
 Close on the value: the clinic can now see its own margin, knows it needs
-₱2,623 per trading day to cover rent and wages, and has a three-month cash
+₱2,529 per trading day to cover rent and wages, and has a three-month cash
 projection with a published error rate.
 
 ## If something fails

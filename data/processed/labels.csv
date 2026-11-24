@@ -23,18 +23,17 @@ sink renovation,1,6000.0,Supplies,manual
 composite,1,5000.0,Supplies,manual
 grocery,4,4653.25,Food,manual
 laboratory (doctor 15 - ivocap),1,4500.0,Lab Fees,manual
+lab (patient case),4,4300.0,Lab Fees,rule
 lab fee,3,3600.0,Lab Fees,manual
+lab (patient),1,3500.0,Lab Fees,rule
 lab (doctor 15) - balance from ivocap,1,3500.0,Lab Fees,manual
-lab (dadis),1,3500.0,Lab Fees,manual
 doctor 12,2,3250.0,Wages,manual
 treasure link,2,3000.0,Supplies,manual
-laboratory (mulong - case of doctor 10 last dec.),1,2500.0,Lab Fees,manual
 doctor 13,2,2500.0,Wages,manual
+laboratory (patient - case of doctor 10 last dec.),1,2500.0,Lab Fees,rule
 shoppe (other expenses + calcium hyd),1,2137.0,Supplies,manual
 doctor 14,2,1900.0,Wages,manual
 doctor 10,3,1800.0,Wages,manual
-lab (charmeon case),1,1450.0,Lab Fees,manual
-lab (pj's case),1,1450.0,Lab Fees,manual
 lab (doctor 15) - cd,1,1350.0,Lab Fees,manual
 water + electricity,1,1340.0,Utilities,manual
 ataw,3,1298.0,Unclassified,manual
@@ -46,23 +45,20 @@ tissue,3,990.0,Supplies,manual
 shoppe (a3 3m),1,737.0,Supplies,manual
 shoppe,2,736.0,Supplies,manual
 jnt,2,710.0,Supplies,manual
-lab (edison case),1,700.0,Lab Fees,manual
-lab (jessa mae case),1,700.0,Lab Fees,manual
+lab (denture repair) - patient,2,600.0,Lab Fees,rule
 lab (doctor 2 case),1,550.0,Lab Fees,manual
-lab - aquino,1,550.0,Lab Fees,manual
+lab - patient,1,550.0,Lab Fees,rule
 savemore,2,538.65,Food,manual
 spoon and fork (tiongsan),1,509.75,Supplies,manual
 other expenses (lan cable),1,500.0,Supplies,manual
 shoppe (makintal),1,490.0,Supplies,manual
 viscus,1,480.0,Unclassified,manual
-lab (denture repair) - mulong,1,350.0,Lab Fees,manual
 shoppee,1,340.0,Supplies,manual
 k-file,1,330.0,Supplies,manual
-lab (denture repair) - stember,1,250.0,Lab Fees,manual
 pinakurat,2,216.0,Food,manual
 papercart,1,210.0,Supplies,manual
+lab (patient -denture repair),1,200.0,Lab Fees,rule
 food (lunch),1,200.0,Food,manual
-lab (dacaimat -denture repair),1,200.0,Lab Fees,manual
 h2o,1,175.0,Supplies,manual
 tiongsan (supply),1,173.75,Supplies,manual
 nss,1,170.0,Supplies,manual

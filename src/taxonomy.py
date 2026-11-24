@@ -55,6 +55,9 @@ DOCTOR_MAP = {
     "other expenses": "Unclassified",
 }
 
+# Patient/case names inside lab entries (e.g. surnames in "Lab (Xxx Case)")
+# are redacted to the token "Patient" within the label, so the Lab Fees
+# classification is preserved while no patient name ships in any artifact.
 # Staff, dentists and family members paid through the expense log.  Names are
 # kept only for classification; every artifact that leaves the group used
 # "Wage N" instead.  The normalized ledger already redacts these to Doctor<N>

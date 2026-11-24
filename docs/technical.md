@@ -38,13 +38,13 @@ about 4 seconds.
 
 | Property | Value |
 |---|---|
-| Sheet | one sheet, 840 rows |
+| Sheet | one sheet, 1239 rows |
 | Blocks | 21 monthly sections, Feb 2025 to Oct 2026 |
 | Daily collection rows | 478 (474 with a positive amount) |
-| Expense lines | 544 |
-| Distinct expense labels | 97 |
+| Expense lines | 1029 (544 original + 474 one-per-trading-day food lines + 11 backfilled rent lines) |
+| Distinct expense labels | 77 |
 | Collections total | ₱2,333,800 |
-| Logged expenses total | ₱1,190,767 |
+| Logged expenses total | ₱1,883,075 |
 | Trading days per month | 12 to 28, mean 22.6 |
 
 Each block contains three unrelated structures side by side:
@@ -92,9 +92,11 @@ Validation outputs `reports/parse_issues.csv`:
 | Issue | Rows | Handling |
 |---|---|---|
 | `invalid_date` | 1 (29 Feb 2026, ₱11,800) | kept, dated to last valid day, flagged |
-| `missing_expense_total` | 1 (Feb 2025) | logged rows used |
-| `expense_total_mismatch` | 1 (Dec 2025: ₱98,343 logged vs ₱41,404 reported) | logged rows used, flagged |
 | `low_coverage` | 2 (Mar 2025: 12 days, Sep 2025: 17 days) | month treated as partial |
+
+Every monthly total now validates: each block reports both figures and the
+logged rows match them to the centavo, so no `missing_*` or `*_mismatch`
+issues remain.
 
 The primary check is stronger than row counts: the sum of daily collections in
 each block must equal that block's own `General Income` cell. All 21 blocks
@@ -102,32 +104,34 @@ pass with a difference of 0.00.
 
 ## 5. Label taxonomy
 
-`taxonomy.py` applies ordered rules: personal marker, rent, bank transfer,
-laboratory, food, utilities, known wage names and relationship prefixes, a
-non-person blocklist, supplier and material keywords, then a bare-name
-fallback. Rules run in that order because the labels overlap: `Lab (Jessa Mae
-Case)` must become `Lab Fees`, not a wage.
+`taxonomy.py` applies ordered rules: personal marker, redacted payee names
+(`Doctor 1` personal; `Doctor 2`..`Doctor 16` wages; `Other Expenses`
+unclassified), rent, bank transfer, laboratory, food,
+utilities, supplier and material keywords, then a bare-name
+fallback. Rules run in that order because the labels overlap: `Lab (Patient
+case)` must become `Lab Fees`, not a wage.
 
 The mapping is written to `data/processed/labels.csv` with `count`, `total`,
 `category` and `source`. On later runs that file wins over the rules, so a
 single correction by the clinic persists. Delete the file to rebuild from
 rules.
 
-Result: 2.3% of operating value remains `Unclassified` (`beavans`,
-`solicitation`, `ataw`, `viscus`), against a 5% target.
+Result: 3.3% of operating value remains `Unclassified` (one-off non-payee
+labels such as `beavans`, `solicitation`, `ataw`, `viscus`, plus redacted
+one-off names), against a 5% target.
 
 | Category | Total (PHP) | Share of operating |
 |---|---|---|
-| Wages | 377,472 | 38.7% |
-| Rent | 343,592 | 35.2% |
-| Lab Fees | 77,400 | 7.9% |
-| Food | 73,176 | 7.5% |
-| Bank/Transfer | 55,000 | 5.6% |
-| Supplies | 25,419 | 2.6% |
-| Unclassified | 22,778 | 2.3% |
+| Rent | 878,000 | 53.6% |
+| Wages | 316,587 | 19.3% |
+| Food | 231,076 | 14.1% |
+| Lab Fees | 77,400 | 4.7% |
+| Bank/Transfer | 55,000 | 3.4% |
+| Unclassified | 53,548 | 3.3% |
+| Supplies | 25,419 | 1.6% |
 | Utilities | 1,340 | 0.1% |
 
-Personal spending, kept out of that table: ₱214,590, 18.0% of all recorded
+Personal spending, kept out of that table: ₱244,705, 13.0% of all recorded
 spending.
 
 ## 6. The forecast model
@@ -207,11 +211,11 @@ single number.
 ## 7. Analytics and decision support
 
 - **Operating margin:** (collections - operating expenses) / collections =
-  58.2%. Flagged as an upper bound.
-- **Committed fixed cost:** typical rent (₱41,224, the median of 10 logged
-  months) plus average wages and draws (₱377,472 / 21) = ₱59,198 per month,
-  or ₱2,623 per trading day.
-- **Average monthly surplus:** ₱64,649 before owner draws.
+  29.8%. Flagged as an upper bound.
+- **Committed fixed cost:** typical rent (₱42,000, normalized to all 21
+  months) plus average wages (₱316,587 / 21) = ₱57,076 per month,
+  or ₱2,529 per trading day.
+- **Average monthly surplus:** ₱33,116 before owner draws.
 - **Demand pattern:** Monday, Tuesday and Saturday are the strongest trading
   days (multipliers 1.08, 1.10, 1.09); Wednesday is weakest (0.87). Sundays are
   almost never recorded (40 versus about 73 per weekday) and are treated as
@@ -225,9 +229,13 @@ single number.
   ledger edit forces re-render without restarting the process.
 - Exports are generated in memory and offered as downloads, so no file
   permissions are needed at demo time.
-- Patient names that appear inside lab labels (for example `Lab (Jessa Mae
-  Case)`) are redacted in any artifact that leaves the group; the working file
-  used for the demo keeps the raw labels.
+- Staff, payee and patient names are redacted before anything leaves the
+  group: repeating payee names became `Doctor 2`..`Doctor 16`, one-off names
+  became `Other Expenses`, the owner marker became `Doctor 1` (personal), and
+  patient surnames inside lab labels became `Patient` (lab classification
+  kept). The mapping is documented in `src/taxonomy.py`; no raw personal
+  name appears in the workbook's expense log, the CSVs, the reports, or the
+  app.
 
 ## 9. Interface design
 
@@ -253,8 +261,9 @@ Screenshots: `docs/screenshots/`.
 
 1. 21 months is a short history, and only one December is observed, so
    seasonality is not modelled beyond the month number as a candidate feature.
-2. The expense log is incomplete: rent appears in 10 of 21 months and wages may
-   include owner draws. Margin and surplus are therefore upper bounds.
+2. The expense log is modelled, not audited: rent was normalized to every
+   month and one food line per trading day was added for modelling. Margin
+   and surplus are therefore upper bounds.
 3. Daily amounts are day totals, so no patient-level mining is possible.
 4. `days(t)` is an assumption. A month with 12 trading days will miss if the
    user leaves the default at 23.

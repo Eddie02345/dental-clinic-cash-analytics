@@ -1,5 +1,13 @@
 # Dental Clinic Ledger (`Accounting.xlsx`): What We Can Mine
 
+> Note (Nov 2026): since this analysis was written, the working copy
+> (`data/raw/Accounting.xlsx`) was normalized: payee names redacted to
+> `Doctor 1`..`Doctor 16` / `Other Expenses`, patient surnames in lab-case
+> labels redacted to `Patient`, rent normalized to every month, and one food
+> line per trading day added. Figures below describe the file as found; the
+> current figures are in `README.md` and `reports/`. The repo-root
+> `Accounting.xlsx` is the untouched original.
+
 ## What's actually in the file
 
 It's a real clinic ledger, not a table. One sheet, 840 rows, 21 monthly blocks from **February 2025 to October 2026**, each block holding three separate things side by side:
@@ -26,7 +34,7 @@ There is no patient-level data, no treatment codes, no visit counts. Col A is a 
 
 Three findings the data already gives you, usable as the client-problem section:
 
-1. **22% of spend is unmapped.** Labels like "D" (57 entries), "Ataw", "viscus", "winston" make ₱263,717 unreadable. The owner cannot see the cost mix from this file.
+1. **22% of spend is unmapped.** Labels like the owner marker (57 entries), `Ataw`, `viscus`, and a staff first name make ₱263,717 unreadable. The owner cannot see the cost mix from this file.
 2. **Fixed costs eat a stable share.** Rent runs about ₱41,000/month on the entries that say "rent", wages and draws about ₱360,000 across 21 months. Average revenue is ₱111,133/month, so the margin is roughly 45 to 50%, and the clinic needs about ₱2,800 per open day just to cover rent and wages. Break-even per day is the single most useful number you can hand them.
 3. **Demand has a mid-month pulse.** Avg revenue by day-of-month peaks at days 13, 17, 22, 23 and 31 (₱6,300 to ₱7,700) versus the ₱4,924 base. That is a testable payday effect and a nice chart.
 
@@ -37,7 +45,7 @@ Three findings the data already gives you, usable as the client-problem section:
 - Duplicate month headers (March 2025 and March 2026 both appear as "MARCH"), so never parse by month name; parse by block position.
 - Summary column disagrees with the log in places: December 2025 shows Total Expenses ₱41,404 while logged entries sum to ₱98,343, and February 2025 has no total at all. Daily collections do tie out to General Income every month, so treat the day column as the source of truth.
 - Typos in expense dates: "10/13/2006", "Augsut 26, 2026", "Feruary 27, 2026".
-- **Patient names inside lab entries** ("Charmeon Case", "Jessa Mae Case", "PJ's case", "Edison Case", "Dacaimat"). Redact these before the file goes in a repo, a report, or a demo.
+- **Patient names inside lab entries** (surnames in "Xxx Case" labels). Redact these before the file goes in a repo, a report, or a demo.
 - Staff real first names on wage lines. Ask the owner whether to generalize them to "Wage 1, Wage 2" for the submission.
 
 One question for the owner settles the biggest ambiguity: **what does "D" mean?** It appears 57 times for ₱1,000 to ₱45,000. If it is dentist draw, your margin math changes; if it is a supplier, your cost mix changes.

@@ -60,7 +60,7 @@ def test_expense_categories():
     assert taxonomy.rule_category("D") == "Personal"
     assert taxonomy.rule_category("d") == "Personal"
     assert taxonomy.rule_category("Food") == "Food"
-    assert taxonomy.rule_category("Lab (Jessa Mae Case)") == "Lab Fees"
+    assert taxonomy.rule_category("Lab (Patient case)") == "Lab Fees"
     assert taxonomy.rule_category("kimi") == "Wages"
     assert taxonomy.rule_category("rent") == "Rent"
     assert taxonomy.rule_category("solicitation") == "Unclassified"

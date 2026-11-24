@@ -550,7 +550,7 @@ block_id,row,month,year,date,date_quality,label_raw,amount
 9,592,11,2025,2025-11-27T00:00:00,ok,Food,205.0
 9,593,11,2025,2025-11-28T00:00:00,ok,Food,575.0
 9,594,11,2025,2025-11-29T00:00:00,ok,Food,341.0
-10,597,12,2025,2025-12-02T00:00:00,ok,lab (Dadis),3500.0
+10,597,12,2025,2025-12-02T00:00:00,ok,lab (Patient),3500.0
 10,598,12,2025,2025-12-03T00:00:00,ok,food,100.0
 10,599,12,2025,,empty,Lab (Doctor 15) - Balance from Ivocap,3500.0
 10,600,12,2025,2025-12-04T00:00:00,ok,food,100.0
@@ -573,7 +573,7 @@ block_id,row,month,year,date,date_quality,label_raw,amount
 10,619,12,2025,2025-12-21T00:00:00,ok,Doctor 1,3500.0
 10,620,12,2025,2025-12-22T00:00:00,ok,food,338.0
 10,621,12,2025,,empty,Other Expenses,60.0
-10,622,12,2025,,empty,Lab - Aquino,550.0
+10,622,12,2025,,empty,Lab - Patient,550.0
 10,623,12,2025,2025-12-23T00:00:00,ok,Other Expenses,5100.0
 10,624,12,2025,,empty,food,270.0
 10,625,12,2025,,empty,Doctor 16,14221.0
@@ -606,7 +606,7 @@ block_id,row,month,year,date,date_quality,label_raw,amount
 10,652,12,2025,2025-12-29T00:00:00,ok,Food,262.0
 11,655,1,2026,2026-01-15T00:00:00,ok,Laboratory (Doctor 15 - Ivocap),4500.0
 11,656,1,2026,,empty,Doctor 5,5000.0
-11,657,1,2026,2026-01-17T00:00:00,ok,Laboratory (Mulong - case of Doctor 10 last Dec.),2500.0
+11,657,1,2026,2026-01-17T00:00:00,ok,Laboratory (Patient - case of Doctor 10 last Dec.),2500.0
 11,658,1,2026,,empty,Other Expenses (lan cable),500.0
 11,659,1,2026,2026-01-30T00:00:00,ok,Doctor 5,10440.0
 11,660,1,2026,2026-01-21T00:00:00,ok,Rent,42000.0
@@ -631,14 +631,14 @@ block_id,row,month,year,date,date_quality,label_raw,amount
 11,704,1,2026,2026-01-29T00:00:00,ok,Food,263.0
 11,705,1,2026,2026-01-30T00:00:00,ok,Food,249.0
 11,706,1,2026,2026-01-31T00:00:00,ok,Food,248.0
-12,709,2,2026,,empty,Lab (denture repair) - mulong,350.0
-12,710,2,2026,,empty,Lab (denture repair) - stember,250.0
+12,709,2,2026,,empty,Lab (denture repair) - Patient,350.0
+12,710,2,2026,,empty,Lab (denture repair) - Patient,250.0
 12,711,2,2026,2026-02-02T00:00:00,ok,Food,120.0
 12,712,2,2026,2026-02-05T00:00:00,ok,Food,120.0
 12,713,2,2026,2026-02-06T00:00:00,ok,Food,120.0
-12,714,2,2026,,empty,Lab (Charmeon Case),1450.0
-12,715,2,2026,,empty,Lab (PJ's case),1450.0
-12,716,2,2026,,empty,Lab (Jessa Mae Case),700.0
+12,714,2,2026,,empty,Lab (Patient Case),1450.0
+12,715,2,2026,,empty,Lab (Patient case),1450.0
+12,716,2,2026,,empty,Lab (Patient Case),700.0
 12,717,2,2026,,empty,Doctor 6,500.0
 12,718,2,2026,2026-02-07T00:00:00,ok,Food,120.0
 12,719,2,2026,2026-02-09T00:00:00,ok,Papercart,210.0
@@ -651,7 +651,7 @@ block_id,row,month,year,date,date_quality,label_raw,amount
 12,726,2,2026,,empty,Doctor 1,1410.0
 12,727,2,2026,,empty,Doctor 6,500.0
 12,728,2,2026,2026-02-12T00:00:00,ok,food,100.0
-12,729,2,2026,,empty,Lab (Edison Case),700.0
+12,729,2,2026,,empty,Lab (Patient Case),700.0
 12,730,2,2026,2026-02-13T00:00:00,ok,food,100.0
 12,731,2,2026,2026-02-14T00:00:00,ok,food,100.0
 12,732,2,2026,,empty,Doctor 5,12000.0
@@ -889,7 +889,7 @@ block_id,row,month,year,date,date_quality,label_raw,amount
 17,1006,7,2026,2026-07-10T00:00:00,ok,Doctor 1,2000.0
 17,1007,7,2026,2026-07-11T00:00:00,ok,Doctor 1,2000.0
 17,1008,7,2026,2026-07-13T00:00:00,ok,Doctor 15,6000.0
-17,1009,7,2026,2026-07-18T00:00:00,ok,lab (dacaimat -denture repair),200.0
+17,1009,7,2026,2026-07-18T00:00:00,ok,lab (Patient -denture repair),200.0
 17,1010,7,2026,2026-07-21T00:00:00,ok,food,150.0
 17,1011,7,2026,,empty,Composite,5000.0
 17,1012,7,2026,2026-07-31T00:00:00,ok,Doctor 11,13760.0
