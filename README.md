@@ -6,13 +6,14 @@ forecast and a margin view. Built for the Data Mining final project.
 The clinic did not have a system. It had one spreadsheet with three things
 mixed together: daily cash collections, an expense log typed by hand, and
 GCash/BDO balances. Owner personal spending was recorded inside the expense log
-as `D`, so the clinic could not compute its own operating margin.
+as `D` (redacted to `Doctor 1` in the working copy), so the clinic could not
+compute its own operating margin.
 
 ## What it does
 
 | Output | Method |
 |---|---|
-| Clean ledger (21 months, 478 trading days, 544 expense lines) | Parser with validation against the workbook's own monthly totals |
+| Clean ledger (21 months, 474 trading days, 1029 expense lines) | Parser with validation against the workbook's own monthly totals |
 | Operating vs personal spending split | Label taxonomy, editable in `data/processed/labels.csv` |
 | Cost mix, break-even, weekday demand pattern | Descriptive analytics |
 | Three-month cash forecast | Prediction: revenue per trading day x assumed trading days, backtested walk-forward |
@@ -76,22 +77,27 @@ reports/                            metrics, analysis, figures, exports
 | Figure | Value |
 |---|---|
 | Collections, 21 months | ₱2,333,800 |
-| Operating expenses | ₱976,177 |
-| Owner personal (label `D`) | ₱214,590 (18.0% of spend) |
-| Operating margin | 58.2% (upper bound) |
-| Average monthly surplus | ₱64,649 |
-| Break-even per trading day | ₱2,623 |
-| Unclassified operating spend | 2.3% |
+| Operating expenses | ₱1,638,370 |
+| Owner personal (label `Doctor 1`) | ₱244,705 (13.0% of spend) |
+| Operating margin | 29.8% (upper bound) |
+| Average monthly surplus | ₱33,116 |
+| Break-even per trading day | ₱2,529 |
+| Unclassified operating spend | 3.3% |
 | Forecast MAPE, out of sample | 18.8% |
 
 ## Data caveats
 
-- The expense log is not a complete business ledger. Rent appears in 10 of 21
-  months, so margin and surplus are upper bounds, not audited figures.
+- The expense log is not a complete business ledger. Rent is now logged in
+  all 21 months (₱38,000 first month, ₱42,000 thereafter), and one food line
+  per trading day was added for modelling, so margin and surplus are upper
+  bounds, not audited figures.
 - Amounts are day totals, not individual transactions, so patient-level
   analysis (segmentation, treatment baskets) is not possible from this file.
 - One impossible date (29 Feb 2026, ₱11,800) is kept and flagged, dated to the
   last valid day of the month.
 - Missing days are treated as non-trading days, not zeros.
+- Expense payee names are redacted: repeating names became Doctor 2..16,
+  one-off names became Other Expenses, and D/Dianne became Doctor 1
+  (personal). The mapping is documented in `src/taxonomy.py`.
 
 See `reports/parse_issues.csv` for the full list.

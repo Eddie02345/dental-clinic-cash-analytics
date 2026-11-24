@@ -63,7 +63,7 @@ def excel_bytes() -> bytes:
             "field": ["generated", "source", "note"],
             "value": [date.today().isoformat(),
                       "data/raw/Accounting.xlsx",
-                      "Personal expenses (label 'D') are kept separate from operating costs"],
+                      "Personal expenses (label 'Doctor 1') are kept separate from operating costs"],
         })
         info.to_excel(writer, sheet_name="About", index=False)
     return buffer.getvalue()

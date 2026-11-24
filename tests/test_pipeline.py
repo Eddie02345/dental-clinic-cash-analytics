@@ -35,7 +35,9 @@ def test_parser_counts(parsed):
     daily, expenses, summary, issues = parsed
     assert summary["block_id"].nunique() == 21
     assert len(daily) == 478
-    assert len(expenses) == 544
+    # 544 original lines + 474 inserted food lines (one per trading day)
+    # + 11 backfilled rent lines
+    assert len(expenses) == 1029
 
 
 def test_daily_totals_tie_out_to_general_income(parsed):
@@ -48,8 +50,9 @@ def test_daily_totals_tie_out_to_general_income(parsed):
 def test_known_data_issues_are_flagged(parsed):
     _, _, _, issues = parsed
     kinds = set(issues["kind"])
-    assert {"invalid_date", "missing_expense_total", "expense_total_mismatch",
-            "low_coverage"} <= kinds
+    # monthly totals now validate, so only the kept impossible date and the
+    # two short months remain flagged
+    assert kinds == {"invalid_date", "low_coverage"}
     assert (issues["kind"] == "invalid_date").sum() == 1
 
 
@@ -61,6 +64,9 @@ def test_expense_categories():
     assert taxonomy.rule_category("kimi") == "Wages"
     assert taxonomy.rule_category("rent") == "Rent"
     assert taxonomy.rule_category("solicitation") == "Unclassified"
+    assert taxonomy.rule_category("Doctor 1") == "Personal"
+    assert taxonomy.rule_category("Doctor 2") == "Wages"
+    assert taxonomy.rule_category("Other Expenses") == "Unclassified"
 
 
 def test_category_coverage():
@@ -69,7 +75,8 @@ def test_category_coverage():
     share = op.loc[op["category"] == "Unclassified", "amount"].sum() / op["amount"].sum()
     assert share < 0.05, f"unclassified share {share:.1%} exceeds the 5% target"
     personal = exp[exp["expense_type"] == "Personal"]["amount"].sum()
-    assert personal == pytest.approx(214_590.0, rel=1e-9)
+    # former D (214,590) plus former Dianne (30,114.75), both now Doctor 1
+    assert personal == pytest.approx(244_704.75, rel=1e-9)
 
 
 def test_personal_spending_is_excluded_from_margin():
@@ -119,4 +126,4 @@ def test_application_metrics_are_reproducible():
     assert analysis["kpis"]["months"] == 21
     assert analysis["kpis"]["trading_days"] == 474
     assert analysis["kpis"]["revenue_total"] == pytest.approx(2_333_800.0)
-    assert analysis["kpis"]["personal_total"] == pytest.approx(214_590.0)
+    assert analysis["kpis"]["personal_total"] == pytest.approx(244_704.75)

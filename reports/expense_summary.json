@@ -1,19 +1,19 @@
 {
-  "operating_total": 976177.0,
-  "personal_total": 214590.0,
-  "personal_share_of_all": 0.18021157791574674,
-  "unclassified_value": 22778.0,
-  "unclassified_share_of_operating": 0.023333883097020315,
+  "operating_total": 1638369.9500000002,
+  "personal_total": 244704.75,
+  "personal_share_of_all": 0.1299495713048452,
+  "unclassified_value": 53548.0,
+  "unclassified_share_of_operating": 0.03268370492268855,
   "by_category": {
-    "Wages": 377471.75,
-    "Rent": 343592.3,
+    "Rent": 878000.0,
+    "Wages": 316587.0,
+    "Food": 231075.9,
     "Lab Fees": 77400.0,
-    "Food": 73175.9,
     "Bank/Transfer": 55000.0,
+    "Unclassified": 53548.0,
     "Supplies": 25419.05,
-    "Unclassified": 22778.0,
     "Utilities": 1340.0
   },
-  "labels": 97,
-  "entries": 544
+  "labels": 81,
+  "entries": 1029
 }

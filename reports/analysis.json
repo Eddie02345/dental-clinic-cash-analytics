@@ -5,242 +5,242 @@
     "revenue_total": 2333800.0,
     "revenue_avg_month": 111133.33333333333,
     "revenue_per_trading_day": 4923.628691983123,
-    "operating_total": 976176.9999999999,
-    "operating_avg_month": 46484.61904761904,
-    "personal_total": 214590.0,
-    "personal_share_of_spend": 0.18021157791574674,
-    "operating_margin": 0.5817220841545977,
-    "surplus_avg_month": 64648.71428571428,
-    "surplus_last_month": 52130.0,
+    "operating_total": 1638369.95,
+    "operating_avg_month": 78017.61666666667,
+    "personal_total": 244704.75,
+    "personal_share_of_spend": 0.12994957130484522,
+    "operating_margin": 0.29798185362927415,
+    "surplus_avg_month": 33115.71666666667,
+    "surplus_last_month": 1347.0,
     "data_through": "2026-10-01",
-    "unclassified_share_of_operating": 0.023333883097020315,
+    "unclassified_share_of_operating": 0.03268370492268855,
     "fixed": {
-      "rent_typical_month": 41223.619999999995,
-      "rent_months_logged": 10,
-      "wages_total": 377471.75,
-      "wages_avg_month": 17974.845238095237,
-      "committed_fixed_month": 59198.46523809523,
-      "fixed_per_trading_day": 2622.716814345991
+      "rent_typical_month": 42000.0,
+      "rent_months_logged": 21,
+      "wages_total": 316587.0,
+      "wages_avg_month": 15075.57142857143,
+      "committed_fixed_month": 57075.57142857143,
+      "fixed_per_trading_day": 2528.664556962025
     }
   },
   "monthly": [
     {
       "period": "2025-02",
       "collected": 61300.0,
-      "operating": 41295.75,
-      "personal": 0.0,
-      "surplus": 20004.25,
+      "operating": 71837.75,
+      "personal": 15000.0,
+      "surplus": -10537.75,
       "trading_days": 22
     },
     {
       "period": "2025-03",
       "collected": 34650.0,
-      "operating": 27156.0,
-      "personal": 0.0,
-      "surplus": 7494.0,
+      "operating": 64714.0,
+      "personal": 9000.0,
+      "surplus": -30064.0,
       "trading_days": 12
     },
     {
       "period": "2025-04",
       "collected": 72950.0,
-      "operating": 39581.0,
-      "personal": 26000.0,
-      "surplus": 33369.0,
+      "operating": 85530.0,
+      "personal": 29000.0,
+      "surplus": -12580.0,
       "trading_days": 21
     },
     {
       "period": "2025-05",
       "collected": 101700.0,
-      "operating": 50131.0,
+      "operating": 99855.0,
       "personal": 21370.0,
-      "surplus": 51569.0,
+      "surplus": 1845.0,
       "trading_days": 24
     },
     {
       "period": "2025-06",
       "collected": 141530.0,
-      "operating": 72429.75,
-      "personal": 10500.0,
-      "surplus": 69100.25,
+      "operating": 78227.0,
+      "personal": 13614.75,
+      "surplus": 63303.0,
       "trading_days": 25
     },
     {
       "period": "2025-07",
       "collected": 123580.0,
-      "operating": 36186.15,
+      "operating": 63882.0,
       "personal": 0.0,
-      "surplus": 87393.85,
+      "surplus": 59698.0,
       "trading_days": 22
     },
     {
       "period": "2025-08",
       "collected": 100700.0,
-      "operating": 79739.65,
+      "operating": 87719.65,
       "personal": 0.0,
-      "surplus": 20960.350000000006,
+      "surplus": 12980.350000000006,
       "trading_days": 22
     },
     {
       "period": "2025-09",
       "collected": 68250.0,
-      "operating": 27415.0,
+      "operating": 75214.0,
       "personal": 6000.0,
-      "surplus": 40835.0,
+      "surplus": -6964.0,
       "trading_days": 17
     },
     {
       "period": "2025-10",
       "collected": 86650.0,
-      "operating": 47950.0,
+      "operating": 78929.0,
       "personal": 10000.0,
-      "surplus": 38700.0,
+      "surplus": 7721.0,
       "trading_days": 21
     },
     {
       "period": "2025-11",
       "collected": 81300.0,
-      "operating": 39770.0,
+      "operating": 69294.0,
       "personal": 6200.0,
-      "surplus": 41530.0,
+      "surplus": 12006.0,
       "trading_days": 21
     },
     {
       "period": "2025-12",
       "collected": 165400.0,
-      "operating": 82233.0,
+      "operating": 96332.0,
       "personal": 16110.0,
-      "surplus": 83167.0,
+      "surplus": 69068.0,
       "trading_days": 23
     },
     {
       "period": "2026-01",
       "collected": 121350.0,
-      "operating": 64343.82,
+      "operating": 71956.0,
       "personal": 0.0,
-      "surplus": 57006.18,
+      "surplus": 49394.0,
       "trading_days": 21
     },
     {
       "period": "2026-02",
       "collected": 165340.0,
-      "operating": 69688.79,
+      "operating": 78498.55,
       "personal": 1410.0,
-      "surplus": 95651.21,
+      "surplus": 86841.45,
       "trading_days": 25
     },
     {
       "period": "2026-03",
       "collected": 123050.0,
-      "operating": 9955.0,
+      "operating": 59853.0,
       "personal": 46500.0,
-      "surplus": 113095.0,
+      "surplus": 63197.0,
       "trading_days": 23
     },
     {
       "period": "2026-04",
       "collected": 145250.0,
-      "operating": 70926.0,
+      "operating": 80184.0,
       "personal": 33500.0,
-      "surplus": 74324.0,
+      "surplus": 65066.0,
       "trading_days": 25
     },
     {
       "period": "2026-05",
       "collected": 102650.0,
-      "operating": 20810.0,
+      "operating": 69992.0,
       "personal": 0.0,
-      "surplus": 81840.0,
+      "surplus": 32658.0,
       "trading_days": 22
     },
     {
       "period": "2026-06",
       "collected": 133350.0,
-      "operating": 67176.09,
+      "operating": 76084.0,
       "personal": 18000.0,
-      "surplus": 66173.91,
+      "surplus": 57266.0,
       "trading_days": 26
     },
     {
       "period": "2026-07",
       "collected": 164590.0,
-      "operating": 28110.0,
+      "operating": 78861.0,
       "personal": 7000.0,
-      "surplus": 136480.0,
+      "surplus": 85729.0,
       "trading_days": 27
     },
     {
       "period": "2026-08",
       "collected": 117490.0,
-      "operating": 21712.0,
+      "operating": 70584.0,
       "personal": 1000.0,
-      "surplus": 95778.0,
+      "surplus": 46906.0,
       "trading_days": 21
     },
     {
       "period": "2026-09",
       "collected": 114370.0,
-      "operating": 23348.0,
+      "operating": 73820.0,
       "personal": 3000.0,
-      "surplus": 91022.0,
+      "surplus": 40550.0,
       "trading_days": 27
     },
     {
       "period": "2026-10",
       "collected": 108350.0,
-      "operating": 56220.0,
+      "operating": 107003.0,
       "personal": 8000.0,
-      "surplus": 52130.0,
+      "surplus": 1347.0,
       "trading_days": 27
     }
   ],
   "categories": [
     {
-      "category": "Wages",
-      "total": 377471.75,
-      "entries": 119,
-      "share": 0.38668371617032565
+      "category": "Rent",
+      "total": 878000.0,
+      "entries": 21,
+      "share": 0.5358985008239439
     },
     {
-      "category": "Rent",
-      "total": 343592.3,
-      "entries": 10,
-      "share": 0.3519774590058975
+      "category": "Wages",
+      "total": 316587.0,
+      "entries": 96,
+      "share": 0.19323291421452155
+    },
+    {
+      "category": "Food",
+      "total": 231075.9,
+      "entries": 744,
+      "share": 0.14104012344708836
     },
     {
       "category": "Lab Fees",
       "total": 77400.0,
       "entries": 42,
-      "share": 0.07928889945163634
-    },
-    {
-      "category": "Food",
-      "total": 73175.9,
-      "entries": 270,
-      "share": 0.0749617128860852
+      "share": 0.04724207740748663
     },
     {
       "category": "Bank/Transfer",
       "total": 55000.0,
       "entries": 1,
-      "share": 0.056342241212403076
+      "share": 0.033569951646146824
+    },
+    {
+      "category": "Unclassified",
+      "total": 53548.0,
+      "entries": 22,
+      "share": 0.03268370492268855
     },
     {
       "category": "Supplies",
       "total": 25419.05,
       "entries": 38,
-      "share": 0.026039386299820624
-    },
-    {
-      "category": "Unclassified",
-      "total": 22778.0,
-      "entries": 6,
-      "share": 0.023333883097020315
+      "share": 0.015514841443472517
     },
     {
       "category": "Utilities",
       "total": 1340.0,
       "entries": 1,
-      "share": 0.001372701876811275
+      "share": 0.0008178860946515772
     }
   ]
 }

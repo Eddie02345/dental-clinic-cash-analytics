@@ -1,7 +1,9 @@
 """Turn free-text expense labels into categories.
 
-The ledger has 97 distinct labels, typed by hand, with inconsistencies
-("Food", "food", "FOOD") and shop-specific shorthand.  This module applies an
+The ledger's labels are typed by hand, with inconsistencies
+("Food", "food", "FOOD") and shop-specific shorthand.  Personal names in the
+expense log are redacted to Doctor<N> (Doctor 1 is the former owner label D;
+one-off names are Other Expenses).  This module applies an
 ordered keyword ruleset and, just as importantly, writes `labels.csv` so the
 clinic can correct any mapping once instead of retyping every row.
 
@@ -27,9 +29,36 @@ OPERATING = ["Rent", "Wages", "Lab Fees", "Food", "Supplies", "Utilities",
              "Bank/Transfer", "Unclassified"]
 CATEGORIES = [PERSONAL] + OPERATING
 
+# Redaction map for the normalized ledger (see data/raw/Accounting.xlsx).
+# Every former payee name in the expense log is replaced: names that repeated
+# across the log became Doctor<N> (most frequent = Doctor 2, next = Doctor 3,
+# ...), one-off names became Other Expenses, and D/Dianne became Doctor 1.
+# Doctor 1 (ex-D) is personal/owner spending; all other Doctor<N> and
+# Other Expenses are operating.
+DOCTOR_MAP = {
+    "doctor 1": "Personal",
+    "doctor 2": "Wages",   # kimi (22 rows)
+    "doctor 3": "Wages",   # cj (15 rows)
+    "doctor 4": "Wages",   # erica (14 rows)
+    "doctor 5": "Wages",   # shyra (8 rows)
+    "doctor 6": "Wages",   # jordan (7 rows)
+    "doctor 7": "Wages",   # lyka (6 rows)
+    "doctor 8": "Wages",   # mama jo (5 rows)
+    "doctor 9": "Wages",   # armie (3 rows)
+    "doctor 10": "Wages",  # ate rose (3 rows)
+    "doctor 11": "Wages",  # des (3 rows)
+    "doctor 12": "Wages",  # doc rose (2 rows)
+    "doctor 13": "Wages",  # heather (2 rows)
+    "doctor 14": "Wages",  # judy (2 rows)
+    "doctor 15": "Wages",  # kuya bernie (2 rows)
+    "doctor 16": "Wages",  # rose (2 rows)
+    "other expenses": "Unclassified",
+}
+
 # Staff, dentists and family members paid through the expense log.  Names are
-# kept only for classification; every artifact that leaves the group uses
-# "Wage N" instead.
+# kept only for classification; every artifact that leaves the group used
+# "Wage N" instead.  The normalized ledger already redacts these to Doctor<N>
+# (see DOCTOR_MAP), so this set now serves as documentation of the old labels.
 WAGE_NAMES = {
     "kimi", "erica", "shyra", "dianne", "jordan", "lyka", "cj", "des", "armie",
     "judy", "heather", "kuya bernie", "ate rose", "rose", "mama jo", "doc rose",
@@ -77,6 +106,10 @@ def rule_category(label: str) -> str:
 
     if n in {"d", "d.", "d-", "personal", "personal expenses"}:
         return PERSONAL
+    if n in DOCTOR_MAP:
+        return DOCTOR_MAP[n]
+    if re.fullmatch(r"doctor \d+", n):
+        return "Wages"
     if "rent" in n:
         return "Rent"
     if "bank" in n or "transfer" in n or "deposit" in n:

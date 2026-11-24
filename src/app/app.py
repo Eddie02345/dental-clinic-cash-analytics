@@ -286,7 +286,7 @@ def ledger_page():
             ("Expense lines", f"{len(df):,}", "from the ledger and manual entry"),
             ("Total recorded", money(total), "operating plus personal"),
             ("Operating", money(op), "excluded personal"),
-            ("Personal", money(total - op), "label D and manual tags"),
+            ("Personal", money(total - op), "label Doctor 1 and manual tags"),
         ]), unsafe_allow_html=True)
 
         edit = df.copy()
