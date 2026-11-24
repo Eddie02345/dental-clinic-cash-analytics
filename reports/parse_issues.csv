@@ -1,0 +1,6 @@
+block_id,row,kind,detail,value,action
+12,527.0,invalid_date,2026-02-29 does not exist,11800.0,"kept, dated 2026-02-28"
+0,,missing_expense_total,Total Expenses not reported for this month,41295.75,logged rows used
+10,,expense_total_mismatch,"logged rows 98,343 vs reported 41,404",56939.18,"logged rows used, flagged in docs"
+1,,low_coverage,12 trading days recorded,34650.0,treat month as partial
+7,,low_coverage,17 trading days recorded,68250.0,treat month as partial

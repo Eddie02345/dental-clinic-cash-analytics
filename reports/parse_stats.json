@@ -1,0 +1,10 @@
+{
+  "blocks": 21,
+  "daily_rows": 478,
+  "positive_days": 474,
+  "expense_rows": 544,
+  "collected_total": 2333800.0,
+  "logged_expenses_total": 1190767.0,
+  "tie_out_failures": 0,
+  "issues": 5
+}

@@ -1,0 +1,19 @@
+{
+  "operating_total": 976177.0,
+  "personal_total": 214590.0,
+  "personal_share_of_all": 0.18021157791574674,
+  "unclassified_value": 22778.0,
+  "unclassified_share_of_operating": 0.023333883097020315,
+  "by_category": {
+    "Wages": 377471.75,
+    "Rent": 343592.3,
+    "Lab Fees": 77400.0,
+    "Food": 73175.9,
+    "Bank/Transfer": 55000.0,
+    "Supplies": 25419.05,
+    "Unclassified": 22778.0,
+    "Utilities": 1340.0
+  },
+  "labels": 97,
+  "entries": 544
+}

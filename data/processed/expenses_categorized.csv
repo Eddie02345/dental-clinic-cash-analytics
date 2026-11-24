@@ -1,0 +1,545 @@
+block_id,row,month,year,date,date_quality,label_raw,amount,label_norm,category,expense_type
+0,3,2,2025,,empty,Laboratory,3000.0,laboratory,Lab Fees,Operating
+0,4,2,2025,,empty,Kimi,1250.0,kimi,Wages,Operating
+0,5,2,2025,,empty,Food,680.0,food,Food,Operating
+0,6,2,2025,,empty,Dianne,15000.0,dianne,Wages,Operating
+0,7,2,2025,,empty,Tiongsan (Supply),173.75,tiongsan (supply),Supplies,Operating
+0,8,2,2025,,empty,Ate Rose,400.0,ate rose,Wages,Operating
+0,9,2,2025,,empty,Food,375.0,food,Food,Operating
+0,10,2,2025,,empty,treasure link,1000.0,treasure link,Supplies,Operating
+0,11,2,2025,,empty,food,258.0,food,Food,Operating
+0,12,2,2025,,empty,tissue,330.0,tissue,Supplies,Operating
+0,13,2,2025,,empty,garbage bag,65.0,garbage bag,Supplies,Operating
+0,14,2,2025,,empty,zonrox,30.0,zonrox,Supplies,Operating
+0,15,2,2025,,empty,Erica,5000.0,erica,Wages,Operating
+0,16,2,2025,,empty,food,150.0,food,Food,Operating
+0,17,2,2025,,empty,savemore,283.0,savemore,Food,Operating
+0,18,2,2025,,empty,pinakurat,108.0,pinakurat,Food,Operating
+0,19,2,2025,,empty,food,300.0,food,Food,Operating
+0,20,2,2025,,empty,food,300.0,food,Food,Operating
+0,21,2,2025,,empty,food,506.0,food,Food,Operating
+0,22,2,2025,,empty,chichirya,100.0,chichirya,Food,Operating
+0,23,2,2025,,empty,pinakurat,108.0,pinakurat,Food,Operating
+0,24,2,2025,,empty,purple pad thai,140.0,purple pad thai,Food,Operating
+0,25,2,2025,,empty,viscus,480.0,viscus,Unclassified,Operating
+0,26,2,2025,,empty,watson - moiturizer,149.0,watson - moiturizer,Supplies,Operating
+0,27,2,2025,,empty,treasure link,2000.0,treasure link,Supplies,Operating
+0,28,2,2025,,empty,food,290.0,food,Food,Operating
+0,29,2,2025,,empty,victoria,180.0,victoria,Wages,Operating
+0,30,2,2025,,empty,food,508.0,food,Food,Operating
+0,31,2,2025,,empty,Kimi,750.0,kimi,Wages,Operating
+0,32,2,2025,,empty,food,512.0,food,Food,Operating
+0,33,2,2025,,empty,food,300.0,food,Food,Operating
+0,34,2,2025,,empty,food,300.0,food,Food,Operating
+0,36,2,2025,,empty,food,70.0,food,Food,Operating
+0,37,2,2025,,empty,Food,200.0,food,Food,Operating
+0,38,2,2025,,empty,kimi,1000.0,kimi,Wages,Operating
+0,39,2,2025,,empty,Erica,5000.0,erica,Wages,Operating
+1,43,3,2025,2025-04-03T00:00:00,ok,Laboratory,3000.0,laboratory,Lab Fees,Operating
+1,44,3,2025,2025-08-03T00:00:00,ok,kimi,750.0,kimi,Wages,Operating
+1,45,3,2025,2025-10-03T00:00:00,ok,food,300.0,food,Food,Operating
+1,46,3,2025,2025-11-03T00:00:00,ok,food,540.0,food,Food,Operating
+1,47,3,2025,2025-12-03T00:00:00,ok,food,130.0,food,Food,Operating
+1,48,3,2025,2025-03-13,ok,food,100.0,food,Food,Operating
+1,49,3,2025,2025-03-14,ok,food,240.0,food,Food,Operating
+1,50,3,2025,2025-03-14,ok,kimi,500.0,kimi,Wages,Operating
+1,51,3,2025,,empty,food,300.0,food,Food,Operating
+1,52,3,2025,,empty,kimi,1760.0,kimi,Wages,Operating
+1,53,3,2025,2025-03-16,ok,food,400.0,food,Food,Operating
+1,54,3,2025,,empty,dianne,1000.0,dianne,Wages,Operating
+1,55,3,2025,,empty,Erica,5000.0,erica,Wages,Operating
+1,56,3,2025,2025-03-17,ok,food,198.0,food,Food,Operating
+1,57,3,2025,,empty,food,100.0,food,Food,Operating
+1,58,3,2025,,empty,dianne,2000.0,dianne,Wages,Operating
+1,59,3,2025,2025-03-18,ok,food,198.0,food,Food,Operating
+1,60,3,2025,,empty,manang rose,1500.0,manang rose,Wages,Operating
+1,61,3,2025,,empty,light bulb,110.0,light bulb,Supplies,Operating
+1,62,3,2025,2025-03-19,ok,dianne,3000.0,dianne,Wages,Operating
+1,63,3,2025,2025-03-20,ok,food,180.0,food,Food,Operating
+1,64,3,2025,,empty,dianne,3000.0,dianne,Wages,Operating
+1,65,3,2025,2025-03-28,ok,food,350.0,food,Food,Operating
+1,66,3,2025,2025-03-31,ok,Erica,2500.0,erica,Wages,Operating
+2,80,4,2025,2025-01-04T00:00:00,ok,Food,378.0,food,Food,Operating
+2,81,4,2025,2025-02-04T00:00:00,ok,Food,650.0,food,Food,Operating
+2,82,4,2025,2025-03-04T00:00:00,ok,Food,250.0,food,Food,Operating
+2,83,4,2025,,empty,Food,75.0,food,Food,Operating
+2,84,4,2025,,empty,Ataw,315.0,ataw,Unclassified,Operating
+2,85,4,2025,,empty,Food,200.0,food,Food,Operating
+2,86,4,2025,2025-04-04T00:00:00,ok,Food,660.0,food,Food,Operating
+2,87,4,2025,,empty,key duplicate,50.0,key duplicate,Supplies,Operating
+2,88,4,2025,2025-05-04T00:00:00,ok,kimi,1240.0,kimi,Wages,Operating
+2,89,4,2025,2025-09-04T00:00:00,ok,jnt,380.0,jnt,Supplies,Operating
+2,90,4,2025,2025-10-04T00:00:00,ok,lunch,100.0,lunch,Food,Operating
+2,91,4,2025,2025-11-04T00:00:00,ok,food,300.0,food,Food,Operating
+2,92,4,2025,,empty,kimi,3040.0,kimi,Wages,Operating
+2,93,4,2025,2025-12-04T00:00:00,ok,food,380.0,food,Food,Operating
+2,94,4,2025,,empty,jnt,330.0,jnt,Supplies,Operating
+2,95,4,2025,2025-04-13,ok,food,198.0,food,Food,Operating
+2,96,4,2025,2025-04-14,ok,food,40.0,food,Food,Operating
+2,97,4,2025,,empty,D,6000.0,d,Personal,Personal
+2,98,4,2025,2025-04-15,ok,D,20000.0,d,Personal,Personal
+2,99,4,2025,2025-04-18,ok,food,145.0,food,Food,Operating
+2,100,4,2025,,empty,lab,2900.0,lab,Lab Fees,Operating
+2,101,4,2025,,empty,kimi,3000.0,kimi,Wages,Operating
+2,102,4,2025,2025-04-19,ok,sink renovation,6000.0,sink renovation,Supplies,Operating
+2,103,4,2025,2025-04-23,ok,food,500.0,food,Food,Operating
+2,104,4,2025,2025-04-24,ok,lab,3700.0,lab,Lab Fees,Operating
+2,105,4,2025,,empty,dianne,3000.0,dianne,Wages,Operating
+2,106,4,2025,,empty,food,400.0,food,Food,Operating
+2,107,4,2025,,empty,sticker,1200.0,sticker,Supplies,Operating
+2,108,4,2025,2025-04-25,ok,shoppee,340.0,shoppee,Supplies,Operating
+2,109,4,2025,2025-04-26,ok,winston,2080.0,winston,Wages,Operating
+2,110,4,2025,2025-04-27,ok,food,230.0,food,Food,Operating
+2,111,4,2025,,empty,erica,7500.0,erica,Wages,Operating
+3,117,5,2025,2025-05-05,ok,Shyra,1500.0,shyra,Wages,Operating
+3,118,5,2025,,empty,food,316.0,food,Food,Operating
+3,119,5,2025,,empty,tissue,330.0,tissue,Supplies,Operating
+3,120,5,2025,,empty,D,670.0,d,Personal,Personal
+3,121,5,2025,2025-05-06,ok,food,1000.0,food,Food,Operating
+3,122,5,2025,2025-05-07,ok,food,1000.0,food,Food,Operating
+3,123,5,2025,2025-05-08,ok,food,500.0,food,Food,Operating
+3,124,5,2025,,empty,D,3000.0,d,Personal,Personal
+3,125,5,2025,2025-05-09,ok,Grocery,1348.0,grocery,Food,Operating
+3,126,5,2025,,empty,Heather,1500.0,heather,Wages,Operating
+3,127,5,2025,,empty,food,330.0,food,Food,Operating
+3,128,5,2025,2025-05-10,ok,food,330.0,food,Food,Operating
+3,129,5,2025,,empty,lab,8000.0,lab,Lab Fees,Operating
+3,130,5,2025,,empty,kimi,500.0,kimi,Wages,Operating
+3,131,5,2025,2025-05-11,ok,D,5000.0,d,Personal,Personal
+3,132,5,2025,2025-05-12,ok,D,8000.0,d,Personal,Personal
+3,133,5,2025,2025-05-13,ok,food,330.0,food,Food,Operating
+3,134,5,2025,2024-05-14,ok,food,200.0,food,Food,Operating
+3,135,5,2025,2024-05-15,ok,lab,3200.0,lab,Lab Fees,Operating
+3,136,5,2025,2025-05-16,ok,food,305.0,food,Food,Operating
+3,137,5,2025,,empty,kimi,2500.0,kimi,Wages,Operating
+3,138,5,2025,2025-05-17,ok,food,300.0,food,Food,Operating
+3,139,5,2025,,empty,kimi,400.0,kimi,Wages,Operating
+3,140,5,2025,2025-05-18,ok,erica,5500.0,erica,Wages,Operating
+3,141,5,2025,2025-05-19,ok,food,380.0,food,Food,Operating
+3,142,5,2025,,empty,grocery,800.0,grocery,Food,Operating
+3,143,5,2025,2025-05-20,ok,water + electricity,1340.0,water + electricity,Utilities,Operating
+3,144,5,2025,,empty,food,380.0,food,Food,Operating
+3,145,5,2025,,empty,Ataw,528.0,ataw,Unclassified,Operating
+3,146,5,2025,2025-05-22,ok,Shyra,1600.0,shyra,Wages,Operating
+3,147,5,2025,2025-05-23,ok,shoppe (makintal),490.0,shoppe (makintal),Supplies,Operating
+3,148,5,2025,,empty,food,300.0,food,Food,Operating
+3,149,5,2025,2025-05-24,ok,shoppe (flow + calcium hyd),2137.0,shoppe (flow + calcium hyd),Supplies,Operating
+3,150,5,2025,,empty,food,300.0,food,Food,Operating
+3,151,5,2025,,empty,d,700.0,d,Personal,Personal
+3,152,5,2025,,empty,D,2000.0,d,Personal,Personal
+3,153,5,2025,2025-05-29,ok,shoppe (A3 3m),737.0,shoppe (a3 3m),Supplies,Operating
+3,154,5,2025,,empty,food,1000.0,food,Food,Operating
+3,155,5,2025,,empty,mama jo,2750.0,mama jo,Wages,Operating
+3,156,5,2025,,empty,d,1000.0,d,Personal,Personal
+3,157,5,2025,2025-05-30,ok,D,1000.0,d,Personal,Personal
+3,158,5,2025,2025-05-31,ok,erica,5000.0,erica,Wages,Operating
+3,159,5,2025,,empty,lab,3000.0,lab,Lab Fees,Operating
+4,166,6,2025,2025-06-01,ok,food,250.0,food,Food,Operating
+4,167,6,2025,,empty,D,2500.0,d,Personal,Personal
+4,168,6,2025,2025-06-02,ok,Food,200.0,food,Food,Operating
+4,169,6,2025,2024-06-03,ok,Lab,1600.0,lab,Lab Fees,Operating
+4,170,6,2025,,empty,food,300.0,food,Food,Operating
+4,171,6,2025,,empty,food,180.0,food,Food,Operating
+4,172,6,2025,2025-06-04,ok,food,655.0,food,Food,Operating
+4,173,6,2025,,empty,D,2000.0,d,Personal,Personal
+4,174,6,2025,2025-06-05,ok,Food,200.0,food,Food,Operating
+4,175,6,2025,2025-06-06,ok,Food,1000.0,food,Food,Operating
+4,176,6,2025,2025-06-07,ok,Kimi,3800.0,kimi,Wages,Operating
+4,177,6,2025,,empty,food,200.0,food,Food,Operating
+4,178,6,2025,,empty,dianne,3114.75,dianne,Wages,Operating
+4,179,6,2025,2025-06-08,ok,Food,400.0,food,Food,Operating
+4,180,6,2025,,empty,Grocery,1485.25,grocery,Food,Operating
+4,181,6,2025,,empty,water (distilled),95.0,water (distilled),Supplies,Operating
+4,182,6,2025,2025-06-09,ok,food,1000.0,food,Food,Operating
+4,183,6,2025,2025-06-10,ok,Food,1000.0,food,Food,Operating
+4,184,6,2025,2025-06-11,ok,lab,4200.0,lab,Lab Fees,Operating
+4,185,6,2025,,empty,lab,1800.0,lab,Lab Fees,Operating
+4,186,6,2025,,empty,food,1000.0,food,Food,Operating
+4,187,6,2025,,empty,D,1000.0,d,Personal,Personal
+4,188,6,2025,2025-06-12,ok,Ate Rose,1000.0,ate rose,Wages,Operating
+4,189,6,2025,,empty,Food,300.0,food,Food,Operating
+4,190,6,2025,2025-06-13,ok,Food,300.0,food,Food,Operating
+4,191,6,2025,2025-06-14,ok,"lab (Ate Des, bal. -CD)",1200.0,"lab (ate des, bal. -cd)",Lab Fees,Operating
+4,192,6,2025,,empty,Lab (kimi case),550.0,lab (kimi case),Lab Fees,Operating
+4,193,6,2025,,empty,Kimi,1000.0,kimi,Wages,Operating
+4,194,6,2025,,empty,food,200.0,food,Food,Operating
+4,195,6,2025,,empty,D,1000.0,d,Personal,Personal
+4,196,6,2025,2025-06-15,ok,Food,320.0,food,Food,Operating
+4,197,6,2025,,empty,D,2000.0,d,Personal,Personal
+4,198,6,2025,2025-06-18,ok,food,280.0,food,Food,Operating
+4,199,6,2025,2025-06-19,ok,D,2000.0,d,Personal,Personal
+4,200,6,2025,2025-06-20,ok,rent,41707.0,rent,Rent,Operating
+4,201,6,2025,2025-06-22,ok,food,369.0,food,Food,Operating
+4,202,6,2025,2025-06-23,ok,food,200.0,food,Food,Operating
+4,203,6,2025,2025-06-24,ok,lab,400.0,lab,Lab Fees,Operating
+4,204,6,2025,,empty,food,290.0,food,Food,Operating
+4,205,6,2025,2025-06-25,ok,food,230.0,food,Food,Operating
+4,206,6,2025,,empty,spoon and fork (tiongsan),509.75,spoon and fork (tiongsan),Supplies,Operating
+4,207,6,2025,2025-06-26,ok,food,430.0,food,Food,Operating
+4,208,6,2025,2025-06-27,ok,food,200.0,food,Food,Operating
+4,209,6,2025,2025-06-29,ok,food,95.0,food,Food,Operating
+4,210,6,2025,,empty,food,369.0,food,Food,Operating
+5,219,7,2025,2025-07-02,ok,Shoppe,360.0,shoppe,Supplies,Operating
+5,220,7,2025,,empty,food,273.0,food,Food,Operating
+5,221,7,2025,,empty,Shoppe,376.0,shoppe,Supplies,Operating
+5,222,7,2025,2025-07-04,ok,Kimi,1200.0,kimi,Wages,Operating
+5,223,7,2025,2025-07-08,ok,Laboratory,1150.0,laboratory,Lab Fees,Operating
+5,224,7,2025,,empty,erica,5000.0,erica,Wages,Operating
+5,225,7,2025,2025-07-11,ok,Kimi,2250.0,kimi,Wages,Operating
+5,226,7,2025,2025-07-14,ok,Food,1000.0,food,Food,Operating
+5,227,7,2025,,unparsed,Food,446.0,food,Food,Operating
+5,228,7,2025,2025-07-17,ok,Food,120.0,food,Food,Operating
+5,229,7,2025,,empty,food,150.0,food,Food,Operating
+5,230,7,2025,2025-07-21,ok,rent,21727.15,rent,Rent,Operating
+5,231,7,2025,,empty,tissue,330.0,tissue,Supplies,Operating
+5,232,7,2025,,empty,food,250.0,food,Food,Operating
+5,233,7,2025,2025-07-22,ok,food,255.0,food,Food,Operating
+5,234,7,2025,,empty,food,120.0,food,Food,Operating
+5,235,7,2025,2025-07-23,ok,food,616.0,food,Food,Operating
+5,236,7,2025,,empty,food,120.0,food,Food,Operating
+5,237,7,2025,2025-07-26,ok,food,100.0,food,Food,Operating
+5,238,7,2025,2025-07-27,ok,food,75.0,food,Food,Operating
+5,239,7,2025,2025-07-28,ok,food,168.0,food,Food,Operating
+5,240,7,2025,2025-07-30,ok,food,100.0,food,Food,Operating
+6,253,8,2025,2025-08-01,ok,food,145.0,food,Food,Operating
+6,254,8,2025,,empty,lab,1100.0,lab,Lab Fees,Operating
+6,255,8,2025,2025-08-02,ok,food,250.0,food,Food,Operating
+6,256,8,2025,2025-08-03,ok,Grocery (savemore),1053.0,grocery (savemore),Food,Operating
+6,257,8,2025,,empty,Erica,8400.0,erica,Wages,Operating
+6,258,8,2025,,empty,food,100.0,food,Food,Operating
+6,259,8,2025,2025-08-04,ok,food,100.0,food,Food,Operating
+6,261,8,2025,2025-08-08,ok,Abi,6000.0,abi,Wages,Operating
+6,262,8,2025,2025-08-18,ok,Food,200.0,food,Food,Operating
+6,263,8,2025,2025-08-19,ok,Food,80.0,food,Food,Operating
+6,264,8,2025,,empty,rent,41593.0,rent,Rent,Operating
+6,265,8,2025,2025-08-20,ok,food,500.0,food,Food,Operating
+6,266,8,2025,2025-08-21,ok,food,300.0,food,Food,Operating
+6,267,8,2025,2025-08-23,ok,food,200.0,food,Food,Operating
+6,268,8,2025,,empty,kimi,570.0,kimi,Wages,Operating
+6,269,8,2025,2025-08-25,ok,food,100.0,food,Food,Operating
+6,270,8,2025,,empty,lab,1000.0,lab,Lab Fees,Operating
+6,271,8,2025,,empty,CJ,2500.0,cj,Wages,Operating
+6,272,8,2025,2025-08-26,ok,Ataw,455.0,ataw,Unclassified,Operating
+6,273,8,2025,,empty,Savemore,255.65,savemore,Food,Operating
+6,274,8,2025,2025-08-27,ok,food,180.0,food,Food,Operating
+6,275,8,2025,,empty,lab,800.0,lab,Lab Fees,Operating
+6,276,8,2025,2025-08-28,ok,food,200.0,food,Food,Operating
+6,277,8,2025,,empty,mama jo,8653.0,mama jo,Wages,Operating
+6,278,8,2025,2025-08-29,ok,food (japanese cake),150.0,food (japanese cake),Food,Operating
+6,279,8,2025,,empty,food (lunch),200.0,food (lunch),Food,Operating
+6,280,8,2025,2025-08-30,ok,Food,205.0,food,Food,Operating
+6,281,8,2025,,empty,CJ,3500.0,cj,Wages,Operating
+6,282,8,2025,2025-08-31,ok,Food,200.0,food,Food,Operating
+6,283,8,2025,,empty,bread,450.0,bread,Wages,Operating
+6,284,8,2025,,empty,Erica,300.0,erica,Wages,Operating
+7,289,9,2025,2025-09-01,ok,food,185.0,food,Food,Operating
+7,290,9,2025,2025-09-02,ok,D,3000.0,d,Personal,Personal
+7,291,9,2025,2025-09-03,ok,food,180.0,food,Food,Operating
+7,292,9,2025,2025-09-04,ok,food,100.0,food,Food,Operating
+7,293,9,2025,2025-09-05,ok,Food,100.0,food,Food,Operating
+7,294,9,2025,2025-09-06,ok,food,200.0,food,Food,Operating
+7,296,9,2025,,empty,kimi,2000.0,kimi,Wages,Operating
+7,297,9,2025,2025-09-08,ok,food,100.0,food,Food,Operating
+7,298,9,2025,2025-09-09,ok,food,100.0,food,Food,Operating
+7,299,9,2025,2025-09-10,ok,food,100.0,food,Food,Operating
+7,300,9,2025,2025-09-12,ok,food,200.0,food,Food,Operating
+7,301,9,2025,,empty,kimi,480.0,kimi,Wages,Operating
+7,302,9,2025,2025-09-13,ok,Food,200.0,food,Food,Operating
+7,303,9,2025,,empty,kimi,4120.0,kimi,Wages,Operating
+7,305,9,2025,2025-09-15,ok,food,100.0,food,Food,Operating
+7,306,9,2025,2025-09-16,ok,food,200.0,food,Food,Operating
+7,307,9,2025,,empty,battery,50.0,battery,Wages,Operating
+7,308,9,2025,,empty,lab,1600.0,lab,Lab Fees,Operating
+7,309,9,2025,2025-09-17,ok,food,100.0,food,Food,Operating
+7,310,9,2025,2025-09-18,ok,food,100.0,food,Food,Operating
+7,311,9,2025,2025-09-19,ok,food,200.0,food,Food,Operating
+7,312,9,2025,,empty,kimi,600.0,kimi,Wages,Operating
+7,313,9,2025,2025-09-20,ok,food,200.0,food,Food,Operating
+7,314,9,2025,2025-09-22,ok,food,100.0,food,Food,Operating
+7,315,9,2025,2025-09-23,ok,food,100.0,food,Food,Operating
+7,316,9,2025,,empty,CJ,2100.0,cj,Wages,Operating
+7,317,9,2025,2025-09-24,ok,food,100.0,food,Food,Operating
+7,318,9,2025,2025-09-25,ok,food,200.0,food,Food,Operating
+7,319,9,2025,2025-09-26,ok,kimi,400.0,kimi,Wages,Operating
+7,320,9,2025,,empty,solicitation,10000.0,solicitation,Unclassified,Operating
+7,321,9,2025,2025-09-27,ok,food,100.0,food,Food,Operating
+7,322,9,2025,2025-09-28,ok,food,200.0,food,Food,Operating
+7,323,9,2025,2025-09-29,ok,food,200.0,food,Food,Operating
+7,324,9,2025,,empty,cj,2500.0,cj,Wages,Operating
+7,325,9,2025,2025-09-30,ok,food,200.0,food,Food,Operating
+7,326,9,2025,,empty,D,3000.0,d,Personal,Personal
+8,331,10,2025,2025-10-01,ok,food,200.0,food,Food,Operating
+8,332,10,2025,2025-10-02,ok,food,100.0,food,Food,Operating
+8,333,10,2025,2025-10-04,ok,food,100.0,food,Food,Operating
+8,334,10,2025,,empty,CJ,2000.0,cj,Wages,Operating
+8,335,10,2025,2025-10-06,ok,food,200.0,food,Food,Operating
+8,336,10,2025,,empty,milktea,250.0,milktea,Wages,Operating
+8,337,10,2025,2025-10-07,ok,food,100.0,food,Food,Operating
+8,338,10,2025,2025-10-08,ok,food,100.0,food,Food,Operating
+8,339,10,2025,2025-10-09,ok,Lab,1200.0,lab,Lab Fees,Operating
+8,340,10,2025,,empty,food,100.0,food,Food,Operating
+8,341,10,2025,2025-10-10,ok,food,100.0,food,Food,Operating
+8,342,10,2025,2025-10-11,ok,food,100.0,food,Food,Operating
+8,343,10,2025,,empty,CJ,2000.0,cj,Wages,Operating
+8,344,10,2025,2025-10-13,ok,food,500.0,food,Food,Operating
+8,345,10,2025,2025-10-14,ok,food,100.0,food,Food,Operating
+8,346,10,2025,2025-10-15,ok,food,200.0,food,Food,Operating
+8,347,10,2025,2025-10-16,ok,food,300.0,food,Food,Operating
+8,348,10,2025,,empty,Rose,5000.0,rose,Wages,Operating
+8,349,10,2025,,empty,D,3000.0,d,Personal,Personal
+8,350,10,2025,2025-10-17,ok,food,100.0,food,Food,Operating
+8,351,10,2025,2025-10-18,ok,food,100.0,food,Food,Operating
+8,352,10,2025,,empty,CJ,2100.0,cj,Wages,Operating
+8,353,10,2025,2025-10-20,ok,rent,18000.0,rent,Rent,Operating
+8,354,10,2025,2025-10-21,ok,food,200.0,food,Food,Operating
+8,355,10,2025,2025-10-22,ok,CJ,1000.0,cj,Wages,Operating
+8,356,10,2025,,empty,D,2000.0,d,Personal,Personal
+8,357,10,2025,2025-10-25,ok,D,5000.0,d,Personal,Personal
+8,358,10,2025,2025-10-26,ok,Ericele,500.0,ericele,Wages,Operating
+8,360,10,2025,2025-10-27,ok,food,200.0,food,Food,Operating
+8,361,10,2025,,empty,beavans,11000.0,beavans,Unclassified,Operating
+8,362,10,2025,2025-10-29,ok,food,100.0,food,Food,Operating
+8,363,10,2025,2025-10-30,ok,food,100.0,food,Food,Operating
+8,364,10,2025,2025-10-31,ok,food,100.0,food,Food,Operating
+8,365,10,2025,,empty,CJ,1800.0,cj,Wages,Operating
+9,375,11,2025,2025-11-03,ok,Food,100.0,food,Food,Operating
+9,376,11,2025,2025-11-04,ok,Lab,800.0,lab,Lab Fees,Operating
+9,377,11,2025,,empty,food,200.0,food,Food,Operating
+9,378,11,2025,,empty,D,1100.0,d,Personal,Personal
+9,379,11,2025,2025-11-05,ok,lab,550.0,lab,Lab Fees,Operating
+9,380,11,2025,,empty,food,275.0,food,Food,Operating
+9,381,11,2025,,empty,D,100.0,d,Personal,Personal
+9,382,11,2025,2025-11-06,ok,food,200.0,food,Food,Operating
+9,383,11,2025,2025-11-07,ok,food,100.0,food,Food,Operating
+9,384,11,2025,2025-11-08,ok,food,100.0,food,Food,Operating
+9,385,11,2025,,empty,CJ,1925.0,cj,Wages,Operating
+9,386,11,2025,2025-11-12,ok,food,200.0,food,Food,Operating
+9,387,11,2025,,empty,AJ,500.0,aj,Wages,Operating
+9,388,11,2025,,empty,mama Jo,2100.0,mama jo,Wages,Operating
+9,389,11,2025,2025-11-13,ok,Food,220.0,food,Food,Operating
+9,390,11,2025,2025-11-14,ok,food,100.0,food,Food,Operating
+9,391,11,2025,2025-11-15,ok,food,100.0,food,Food,Operating
+9,392,11,2025,,empty,CJ,1500.0,cj,Wages,Operating
+9,393,11,2025,2025-11-17,ok,food,200.0,food,Food,Operating
+9,394,11,2025,2025-11-18,ok,food,300.0,food,Food,Operating
+9,395,11,2025,,empty,lab,5000.0,lab,Lab Fees,Operating
+9,396,11,2025,2025-11-19,ok,food,200.0,food,Food,Operating
+9,397,11,2025,2025-11-20,ok,food,200.0,food,Food,Operating
+9,398,11,2025,,empty,rent,20000.0,rent,Rent,Operating
+9,399,11,2025,2025-11-21,ok,food,100.0,food,Food,Operating
+9,400,11,2025,2025-11-22,ok,food,100.0,food,Food,Operating
+9,401,11,2025,,empty,CJ,1400.0,cj,Wages,Operating
+9,402,11,2025,2025-11-23,ok,food,350.0,food,Food,Operating
+9,403,11,2025,2025-11-24,ok,Food,100.0,food,Food,Operating
+9,404,11,2025,,empty,D,5000.0,d,Personal,Personal
+9,405,11,2025,2025-11-25,ok,food,100.0,food,Food,Operating
+9,406,11,2025,2025-11-26,ok,lab,600.0,lab,Lab Fees,Operating
+9,407,11,2025,2025-11-27,ok,food,200.0,food,Food,Operating
+9,408,11,2025,2025-11-28,ok,food,100.0,food,Food,Operating
+9,409,11,2025,2025-11-29,ok,food,100.0,food,Food,Operating
+9,410,11,2025,,empty,CJ,1750.0,cj,Wages,Operating
+10,422,12,2025,2025-12-02,ok,lab (Dadis),3500.0,lab (dadis),Lab Fees,Operating
+10,423,12,2025,2025-12-03,ok,food,100.0,food,Food,Operating
+10,424,12,2025,,empty,Lab (Kuya Bernie) - Balance from Ivocap,3500.0,lab (kuya bernie) - balance from ivocap,Lab Fees,Operating
+10,425,12,2025,2025-12-04,ok,food,100.0,food,Food,Operating
+10,426,12,2025,2025-12-05,ok,food,100.0,food,Food,Operating
+10,427,12,2025,2025-12-06,ok,food,200.0,food,Food,Operating
+10,428,12,2025,,empty,CJ,2000.0,cj,Wages,Operating
+10,429,12,2025,2025-12-09,ok,food,115.0,food,Food,Operating
+10,430,12,2025,,empty,Lab (kuya Bernie) - CD,1350.0,lab (kuya bernie) - cd,Lab Fees,Operating
+10,431,12,2025,2025-12-10,ok,Jordan,1300.0,jordan,Wages,Operating
+10,432,12,2025,2025-12-11,ok,Food,175.0,food,Food,Operating
+10,433,12,2025,2025-12-12,ok,Food,200.0,food,Food,Operating
+10,434,12,2025,,empty,CJ,7000.0,cj,Wages,Operating
+10,435,12,2025,,empty,D,5000.0,d,Personal,Personal
+10,436,12,2025,2025-12-15,ok,Maribel,1000.0,maribel,Wages,Operating
+10,437,12,2025,2025-12-17,ok,Food,665.0,food,Food,Operating
+10,438,12,2025,2025-12-18,ok,mama jo,2053.0,mama jo,Wages,Operating
+10,441,12,2025,,empty,Rent,35008.0,rent,Rent,Operating
+10,442,12,2025,2025-12-20,ok,Food,1000.0,food,Food,Operating
+10,443,12,2025,,empty,D,2000.0,d,Personal,Personal
+10,444,12,2025,2025-12-21,ok,D,3500.0,d,Personal,Personal
+10,445,12,2025,2025-12-22,ok,food,338.0,food,Food,Operating
+10,446,12,2025,,empty,Aqua,60.0,aqua,Wages,Operating
+10,447,12,2025,,empty,Lab - Aquino,550.0,lab - aquino,Lab Fees,Operating
+10,448,12,2025,2025-12-23,ok,Manang sitsit,5100.0,manang sitsit,Wages,Operating
+10,449,12,2025,,empty,food,270.0,food,Food,Operating
+10,450,12,2025,,empty,Rose,14221.0,rose,Wages,Operating
+10,451,12,2025,2025-12-24,ok,Food,328.0,food,Food,Operating
+10,452,12,2025,,empty,D,2000.0,d,Personal,Personal
+10,453,12,2025,,empty,D,3610.0,d,Personal,Personal
+10,454,12,2025,2025-12-26,ok,Erica,2000.0,erica,Wages,Operating
+11,462,1,2026,2026-01-15,ok,Laboratory (kuya Bernie - Ivocap),4500.0,laboratory (kuya bernie - ivocap),Lab Fees,Operating
+11,463,1,2026,,empty,Shyra,5000.0,shyra,Wages,Operating
+11,464,1,2026,2026-01-17,ok,Laboratory (Mulong - case of ate Rose last Dec.),2500.0,laboratory (mulong - case of ate rose last dec.),Lab Fees,Operating
+11,465,1,2026,,empty,Lyken (lan cable),500.0,lyken (lan cable),Supplies,Operating
+11,466,1,2026,2026-01-30,ok,Shyra,10440.0,shyra,Wages,Operating
+11,467,1,2026,2026-01-21,ok,rent,41403.82,rent,Rent,Operating
+12,499,2,2026,,unparsed,Lab (denture repair) - mulong,350.0,lab (denture repair) - mulong,Lab Fees,Operating
+12,500,2,2026,,empty,Lab (denture repair) - stember,250.0,lab (denture repair) - stember,Lab Fees,Operating
+12,501,2,2026,2026-02-02,ok,Food,120.0,food,Food,Operating
+12,502,2,2026,2026-02-05,ok,Food,120.0,food,Food,Operating
+12,503,2,2026,2026-02-06,ok,Food,120.0,food,Food,Operating
+12,504,2,2026,,empty,Lab (Charmeon Case),1450.0,lab (charmeon case),Lab Fees,Operating
+12,505,2,2026,,empty,Lab (PJ's case),1450.0,lab (pj's case),Lab Fees,Operating
+12,506,2,2026,,empty,Lab (Jessa Mae Case),700.0,lab (jessa mae case),Lab Fees,Operating
+12,507,2,2026,,empty,Jordan,500.0,jordan,Wages,Operating
+12,508,2,2026,2026-02-07,ok,Food,120.0,food,Food,Operating
+12,509,2,2026,2026-02-09,ok,Papercart,210.0,papercart,Supplies,Operating
+12,510,2,2026,2026-02-10,ok,Syringe,55.0,syringe,Supplies,Operating
+12,511,2,2026,,empty,Distilled water,81.55,distilled water,Supplies,Operating
+12,512,2,2026,,empty,food,125.0,food,Food,Operating
+12,513,2,2026,,empty,food,200.0,food,Food,Operating
+12,514,2,2026,,empty,food,130.0,food,Food,Operating
+12,515,2,2026,2026-02-11,ok,food,260.0,food,Food,Operating
+12,516,2,2026,,empty,D,1410.0,d,Personal,Personal
+12,517,2,2026,,empty,Jordan,500.0,jordan,Wages,Operating
+12,518,2,2026,2026-02-12,ok,food,100.0,food,Food,Operating
+12,519,2,2026,,empty,Lab (Edison Case),700.0,lab (edison case),Lab Fees,Operating
+12,520,2,2026,2026-02-13,ok,food,100.0,food,Food,Operating
+12,521,2,2026,2026-02-14,ok,food,100.0,food,Food,Operating
+12,522,2,2026,,empty,Shyra,12000.0,shyra,Wages,Operating
+12,523,2,2026,2026-02-17,ok,food,200.0,food,Food,Operating
+12,524,2,2026,,empty,mama jo,4200.0,mama jo,Wages,Operating
+12,525,2,2026,2026-02-18,ok,K-file,330.0,k-file,Supplies,Operating
+12,526,2,2026,,empty,food,340.0,food,Food,Operating
+12,527,2,2026,2026-02-20,ok,food,150.0,food,Food,Operating
+12,528,2,2026,2026-02-21,ok,food,130.0,food,Food,Operating
+12,529,2,2026,,empty,rent,41157.24,rent,Rent,Operating
+12,530,2,2026,,empty,key duplicate,100.0,key duplicate,Supplies,Operating
+12,531,2,2026,2026-02-22,ok,water,35.0,water,Supplies,Operating
+12,532,2,2026,,empty,Shyra,2200.0,shyra,Wages,Operating
+12,533,2,2026,2026-02-23,ok,food,400.0,food,Food,Operating
+12,534,2,2026,,empty,photopaper,175.0,photopaper,Supplies,Operating
+12,535,2,2026,,unparsed,Food,330.0,food,Food,Operating
+12,536,2,2026,,unparsed,Food,200.0,food,Food,Operating
+13,543,3,2026,2026-03-04,ok,food,100.0,food,Food,Operating
+13,544,3,2026,2026-03-06,ok,food,100.0,food,Food,Operating
+13,545,3,2026,,empty,photopaper,525.0,photopaper,Supplies,Operating
+13,546,3,2026,2026-03-09,ok,Food,100.0,food,Food,Operating
+13,547,3,2026,2026-03-16,ok,food,170.0,food,Food,Operating
+13,548,3,2026,,empty,Jordan,2500.0,jordan,Wages,Operating
+13,549,3,2026,,empty,Lyka,1200.0,lyka,Wages,Operating
+13,550,3,2026,2026-03-17,ok,Flow,400.0,flow,Wages,Operating
+13,551,3,2026,2026-03-18,ok,Judy,1000.0,judy,Wages,Operating
+13,552,3,2026,,empty,food,300.0,food,Food,Operating
+13,553,3,2026,2026-03-19,ok,food,120.0,food,Food,Operating
+13,554,3,2026,2026-03-20,ok,food,350.0,food,Food,Operating
+13,555,3,2026,2026-03-23,ok,food,120.0,food,Food,Operating
+13,556,3,2026,2026-03-24,ok,food,300.0,food,Food,Operating
+13,557,3,2026,,empty,D,45000.0,d,Personal,Personal
+13,558,3,2026,2026-03-26,ok,D,1000.0,d,Personal,Personal
+13,559,3,2026,,empty,Lab,1450.0,lab,Lab Fees,Operating
+13,560,3,2026,2026-03-27,ok,D,500.0,d,Personal,Personal
+13,561,3,2026,,empty,Water,70.0,water,Supplies,Operating
+13,562,3,2026,2026-03-29,ok,food,200.0,food,Food,Operating
+13,563,3,2026,2026-03-30,ok,food,300.0,food,Food,Operating
+13,564,3,2026,,empty,lab,200.0,lab,Lab Fees,Operating
+13,565,3,2026,2026-03-31,ok,Food,450.0,food,Food,Operating
+14,589,4,2026,2026-04-01,ok,D,1000.0,d,Personal,Personal
+14,590,4,2026,2026-04-03,ok,D,500.0,d,Personal,Personal
+14,591,4,2026,2026-04-04,ok,Lyka,2300.0,lyka,Wages,Operating
+14,592,4,2026,2026-04-06,ok,Food,300.0,food,Food,Operating
+14,593,4,2026,,empty,H2O,175.0,h2o,Supplies,Operating
+14,594,4,2026,2026-04-07,ok,D,1000.0,d,Personal,Personal
+14,595,4,2026,2026-04-08,ok,Food,406.0,food,Food,Operating
+14,596,4,2026,,empty,Doc Rose,2050.0,doc rose,Wages,Operating
+14,600,4,2026,2026-04-13,ok,Food,300.0,food,Food,Operating
+14,601,4,2026,,empty,Doc Rose,1200.0,doc rose,Wages,Operating
+14,602,4,2026,2026-04-15,ok,Shyra,2840.0,shyra,Wages,Operating
+14,603,4,2026,2026-04-20,ok,D,1000.0,d,Personal,Personal
+14,604,4,2026,,empty,rent,41290.0,rent,Rent,Operating
+14,605,4,2026,2026-04-22,ok,D,30000.0,d,Personal,Personal
+14,606,4,2026,,empty,Food,315.0,food,Food,Operating
+14,607,4,2026,2025-04-23,ok,Food,360.0,food,Food,Operating
+14,608,4,2026,,empty,Jordan,2835.0,jordan,Wages,Operating
+14,609,4,2026,,empty,Lyka,3150.0,lyka,Wages,Operating
+14,610,4,2026,,empty,Lab fee,750.0,lab fee,Lab Fees,Operating
+14,611,4,2026,2026-04-24,ok,Food,360.0,food,Food,Operating
+14,612,4,2026,2026-04-25,ok,Food,330.0,food,Food,Operating
+14,613,4,2026,2026-04-27,ok,Food,330.0,food,Food,Operating
+14,614,4,2026,2026-04-28,ok,Food,145.0,food,Food,Operating
+14,615,4,2026,2026-04-29,ok,Food,110.0,food,Food,Operating
+14,616,4,2026,2026-04-30,ok,Food,330.0,food,Food,Operating
+14,617,4,2026,,empty,Photopaper,350.0,photopaper,Supplies,Operating
+14,618,4,2026,,empty,Shyra,10700.0,shyra,Wages,Operating
+15,625,5,2026,2026-05-01,ok,Food,330.0,food,Food,Operating
+15,626,5,2026,,empty,Judy,900.0,judy,Wages,Operating
+15,627,5,2026,2026-05-02,ok,Food,110.0,food,Food,Operating
+15,628,5,2026,2026-05-05,ok,Food,220.0,food,Food,Operating
+15,629,5,2026,2026-05-06,ok,Food,130.0,food,Food,Operating
+15,630,5,2026,2026-05-07,ok,Food,220.0,food,Food,Operating
+15,631,5,2026,,empty,Lyka,3150.0,lyka,Wages,Operating
+15,632,5,2026,2026-05-08,ok,Food,220.0,food,Food,Operating
+15,633,5,2026,2026-05-14,ok,Dr. Valdez,500.0,dr. valdez,Wages,Operating
+15,634,5,2026,,empty,Lab Fee,2200.0,lab fee,Lab Fees,Operating
+15,635,5,2026,2026-05-18,ok,wilkins,120.0,wilkins,Supplies,Operating
+15,636,5,2026,,empty,food,130.0,food,Food,Operating
+15,637,5,2026,2026-05-23,ok,kuya PJ,5000.0,kuya pj,Wages,Operating
+15,638,5,2026,,empty,Lyka,3150.0,lyka,Wages,Operating
+15,639,5,2026,2026-05-27,ok,Lab Fee,650.0,lab fee,Lab Fees,Operating
+15,640,5,2026,,empty,Food,200.0,food,Food,Operating
+15,641,5,2026,2026-05-28,ok,Lyka,3000.0,lyka,Wages,Operating
+15,642,5,2026,2026-05-29,ok,food,300.0,food,Food,Operating
+15,643,5,2026,2026-05-30,ok,food,280.0,food,Food,Operating
+16,660,6,2026,2026-06-04,ok,Grocery,1020.0,grocery,Food,Operating
+16,661,6,2026,,empty,D,2000.0,d,Personal,Personal
+16,662,6,2026,2026-06-05,ok,D,1000.0,d,Personal,Personal
+16,663,6,2026,2026-06-06,ok,Food,300.0,food,Food,Operating
+16,664,6,2026,,empty,Erica,2800.0,erica,Wages,Operating
+16,665,6,2026,2026-06-10,ok,Food,200.0,food,Food,Operating
+16,666,6,2026,2026-06-11,ok,D,1000.0,d,Personal,Personal
+16,667,6,2026,2026-06-12,ok,food,400.0,food,Food,Operating
+16,668,6,2026,2026-06-13,ok,D,2000.0,d,Personal,Personal
+16,669,6,2026,2026-06-14,ok,food,200.0,food,Food,Operating
+16,670,6,2026,,empty,Erica,2500.0,erica,Wages,Operating
+16,671,6,2026,2026-06-15,ok,Food,300.0,food,Food,Operating
+16,672,6,2026,2026-06-16,ok,D,5000.0,d,Personal,Personal
+16,673,6,2026,2026-06-18,ok,Rent,41706.09,rent,Rent,Operating
+16,674,6,2026,2026-06-20,ok,Food,600.0,food,Food,Operating
+16,675,6,2026,,empty,Erica,1500.0,erica,Wages,Operating
+16,676,6,2026,2026-06-22,ok,Food,150.0,food,Food,Operating
+16,677,6,2026,,empty,D,6000.0,d,Personal,Personal
+16,678,6,2026,2026-06-26,ok,Jordan,2200.0,jordan,Wages,Operating
+16,679,6,2026,2026-06-28,ok,D,1000.0,d,Personal,Personal
+16,680,6,2026,2026-06-29,ok,ate rose,400.0,ate rose,Wages,Operating
+16,681,6,2026,,empty,kuya bernie,5700.0,kuya bernie,Wages,Operating
+16,682,6,2026,2026-06-30,ok,Don Robert,7200.0,don robert,Wages,Operating
+17,696,7,2026,2026-07-02,ok,D,1000.0,d,Personal,Personal
+17,697,7,2026,,unparsed,D,2000.0,d,Personal,Personal
+17,698,7,2026,2026-07-10,ok,D,2000.0,d,Personal,Personal
+17,699,7,2026,2026-07-11,ok,D,2000.0,d,Personal,Personal
+17,700,7,2026,2026-07-13,ok,Kuya Bernie,6000.0,kuya bernie,Wages,Operating
+17,701,7,2026,2026-07-18,ok,lab (dacaimat -denture repair),200.0,lab (dacaimat -denture repair),Lab Fees,Operating
+17,702,7,2026,2026-07-21,ok,food,150.0,food,Food,Operating
+17,703,7,2026,,empty,Composite,5000.0,composite,Supplies,Operating
+17,704,7,2026,2026-07-31,ok,Des,13760.0,des,Wages,Operating
+17,705,7,2026,,empty,Armie,3000.0,armie,Wages,Operating
+18,733,8,2026,2026-08-01,ok,Food,276.0,food,Food,Operating
+18,734,8,2026,2026-08-13,ok,Food,342.0,food,Food,Operating
+18,735,8,2026,2026-08-14,ok,Food,230.0,food,Food,Operating
+18,736,8,2026,2026-08-15,ok,D,500.0,d,Personal,Personal
+18,737,8,2026,,empty,Lab,800.0,lab,Lab Fees,Operating
+18,738,8,2026,2026-08-17,ok,D,500.0,d,Personal,Personal
+18,739,8,2026,2026-08-23,ok,NSS,170.0,nss,Supplies,Operating
+18,740,8,2026,,unparsed,Food,244.0,food,Food,Operating
+18,741,8,2026,,empty,Des,11650.0,des,Wages,Operating
+18,742,8,2026,,empty,Armie,8000.0,armie,Wages,Operating
+19,770,9,2026,2026-09-01,ok,D,2000.0,d,Personal,Personal
+19,771,9,2026,2026-09-05,ok,Food,270.0,food,Food,Operating
+19,772,9,2026,2026-09-07,ok,Food,255.0,food,Food,Operating
+19,773,9,2026,2026-09-08,ok,Food,275.0,food,Food,Operating
+19,774,9,2026,2026-09-11,ok,Food,250.0,food,Food,Operating
+19,775,9,2026,2026-09-12,ok,Food,220.0,food,Food,Operating
+19,776,9,2026,,empty,D,1000.0,d,Personal,Personal
+19,777,9,2026,,unparsed,Jordan,1500.0,jordan,Wages,Operating
+19,778,9,2026,2026-09-19,ok,Food,278.0,food,Food,Operating
+19,779,9,2026,2026-09-30,ok,Des,12200.0,des,Wages,Operating
+19,780,9,2026,,empty,Armie,8100.0,armie,Wages,Operating
+20,807,10,2026,2026-06-10T00:00:00,ok,D,1000.0,d,Personal,Personal
+20,808,10,2026,2026-10-10T00:00:00,ok,food,220.0,food,Food,Operating
+20,809,10,2026,2006-10-13,ok,D,1000.0,d,Personal,Personal
+20,810,10,2026,,empty,Heather,1000.0,heather,Wages,Operating
+20,811,10,2026,2026-10-19,ok,D,1000.0,d,Personal,Personal
+20,812,10,2026,2026-10-20,ok,Bank,55000.0,bank,Bank/Transfer,Operating
+20,813,10,2026,2026-10-24,ok,D,5000.0,d,Personal,Personal

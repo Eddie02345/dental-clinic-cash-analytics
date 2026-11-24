@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# App / data artifacts (local only)
+data/clinic.db
+reports/clinic_summary.xlsx
+reports/clinic_summary.pdf
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI agent / assistant files - excluded
+.agent/
+.opencode/
+.cursor/
+.cursorignore
+.wind/
+.windsurf/
+.vscode/ai*
+.claude/
+.codex/
+.aider*
+.cline/
+.roo/
+.continue/
+*.ai.md
+OPENCODE.md
+AGENTS.local.md
